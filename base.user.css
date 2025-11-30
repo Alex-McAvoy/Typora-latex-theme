@@ -35,25 +35,25 @@ h5 {
 #write h3:before,
 h3.md-focus.md-heading:before { /** override the default style for focused headings */
   counter-increment: h3;
-  content: counter(h2) "."counter(h3) ". ";
+  content: counter(h2) "."counter(h3) " ";
 }
 
 #write h4:before,
 h4.md-focus.md-heading:before {
   counter-increment: h4;
-  content: counter(h2) "."counter(h3) "."counter(h4) ". ";
+  content: counter(h2) "."counter(h3) "."counter(h4) " ";
 }
 
 #write h5:before,
 h5.md-focus.md-heading:before {
   counter-increment: h5;
-  content: counter(h2) "."counter(h3) "."counter(h4) "."counter(h5) ". "
+  content: counter(h2) "."counter(h3) "."counter(h4) "."counter(h5) " ";
 }
 
 #write h6:before,
 h6.md-focus.md-heading:before {
   counter-increment: h6;
-  content: counter(h2) "."counter(h3) "."counter(h4) "."counter(h5) "."counter(h6) ". "
+  content: counter(h2) "."counter(h3) "."counter(h4) "."counter(h5) "."counter(h6) " ";
 }
 
 /** override the default style for focused headings */
